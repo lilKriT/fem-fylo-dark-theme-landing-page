@@ -10,6 +10,31 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono); */
+
+  /* Font size: 14px */
+  --text-base: 0.875rem;
+
+  /* Headings, CTA, Header: Raleway */
+  /* Body: Open Sans */
+
+  /* Primary Colors */
+  /* Intro and email sign up background */
+  --color-navy-850: hsl(217, 28%, 15%);
+  /* Main Background */
+  --color-navy-900: hsl(218, 28%, 13%);
+  /* Footer Background */
+  --color-navy-950: hsl(216, 53%, 9%);
+  /* Testimonials Background */
+  --color-navy-800: hsl(219, 30%, 18%);
+
+  /* Accent Colors */
+  /* Inside CTA gradient: */
+  --color-teal-200: hsl(176, 68%, 64%);
+  --color-cyan-500: hsl(198, 60%, 50%);
+  /* Danger */
+  --color-red-500: hsl(0, 100%, 63%);
+
+  /* Icon sources: FontAwesome, IcoMoon, IonIcons */
 }
 
 /* @media (prefers-color-scheme: dark) {
