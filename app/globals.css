@@ -52,6 +52,22 @@ h6 {
   @apply font-heading;
 }
 
+.features__article {
+  @apply flex flex-col justify-center items-center gap-4 text-center;
+
+  img {
+    @apply h-[5.625rem] w-auto;
+  }
+
+  h2 {
+    @apply mt-4 font-bold text-lg;
+  }
+
+  p {
+    @apply max-w-[45ch];
+  }
+}
+
 .btn {
   @apply bg-linear-to-r from-teal-200 via-teal-200 to-cyan-500 px-8 py-2 rounded-full;
   @apply text-xl font-heading font-bold;
